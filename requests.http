@@ -1,0 +1,11 @@
+### Create New User
+POST http://localhost:3000/user/signup
+Content-Type: : application/json
+
+{
+    "email": "aft45@eg.com",
+    "password": "password"
+}
+
+### home route
+GET http://localhost:3000/ HTTP/1.1
